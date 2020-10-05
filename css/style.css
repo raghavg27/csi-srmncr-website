@@ -126,6 +126,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
+
 	background: url(../img/back.png) no-repeat center top;
 	margin-top: -20px;
 	padding-top: 250px;
@@ -147,18 +148,46 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap h1 {
+  /* font-family: "Montserrat-Black", sans-serif;
+  font-size: 110px;
+  line-height: 1.5;
+  font-weight: 900;
+  color:#000; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Sansita Swashed', cursive; */
+  /* font-family: 'Poppins', sans-serif; */
+ 
+  /* font-family: 'Secular One', sans-serif; */
+  font-family: 'David Libre', serif;
 	color:#000;
 	padding-top: 10px;
 	padding-bottom: 20px;
-	letter-spacing: 4px;
-	font-size: 110px;
+	letter-spacing: 5px;
+	font-size: 120px;
 	font-weight: bold;
 }
 
 #headerwrap h4 {
-	font-weight: 700;
+  /* font-family: "Montserrat-Black", sans-serif;
+  font-size: 30px;
+  line-height: 1.5;
+  font-weight: 900;
+  color:#000; */
+  /* font-family: 'Montserrat', sans-serif; */
+  
+   /* font-family: 'Sansita Swashed', cursive; */
+   /* font-family: 'Poppins', sans-serif; */
+   /* font-family: 'Secular One', sans-serif; */
+   font-family: 'David Libre', serif;
+  /* font-size: 4rem; */
+  line-height: 1.5;
+  /* font-weight: 900; */
+	font-weight: bold;
+
+	letter-spacing: 2px;
+  
 	color: #000;
-    font-size: 30px;
+    font-size:36px;
 }
 
 @media (max-width: 768px) {
@@ -477,4 +506,33 @@ a {
 	font-size: 60px;
 	font-weight: bold;
     text-shadow: 2px 2px #fff;
+}
+
+.dropdown-menu .dropdown-toggle:after{
+  border-top: .3em solid transparent;
+    border-right: 0;
+    border-bottom: .3em solid transparent;
+    border-left: .3em solid;
+}
+.dropdown-menu .dropdown-menu{
+  margin-left:0; margin-right: 0;
+}
+.dropdown-menu li{
+  position: relative;
+}
+.nav-item .submenu{ 
+  display: none;
+  position: absolute;
+  left:100%; top:-7px;
+}
+.nav-item .submenu-left{ 
+  right:100%; left:auto;
+}
+.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+.dropdown-menu > li:hover > .submenu{
+  display: block;
+}
+
+ul.a {
+  list-style-type: square;
 }
